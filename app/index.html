@@ -1,0 +1,1804 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+		<link rel="stylesheet" href="css/app.min.css">
+	</head>
+<body>
+	<div class="app">
+		<div class="loader">
+			<h2 class="loader__text">
+				Dubai Hills
+				<div class="loader__progress" style="width: 0%;">Dubai Hills</div>
+			</h2>
+		</div>
+		<!-- header -->
+		<header class="app-header">
+			<div class="app-header__body">
+				<div class="app-header__container container">
+					<button class="app-header__btn-toggler btn-toggler btn" type="button">
+						<div class="btn-toggler__humberger">
+							<span class="btn-toggler__line btn-toggler__line_top"></span>
+							<span class="btn-toggler__line btn-toggler__line_mid"></span>
+							<span class="btn-toggler__line btn-toggler__line_bot"></span>
+						</div>
+						<div class="btn-toggler__tx-box">
+							<div class="btn-toggler__tx btn-toggler__tx_open"><span data-text="Close menu">Close menu</span></div>
+							<div class="btn-toggler__tx btn-toggler__tx_close"><span data-text="Menu">Menu</span></div>
+						</div>
+					</button>
+					<div class="app-header__logo">
+						<a href="/">
+							<img src="@img/logo.svg" alt="">
+						</a>
+					</div>
+					<div class="app-header__phone">
+						<span class="code">+971 56</span>
+						<span class="hidden-number">
+							<span class="text-gradient">xxx</span>
+						</span>
+						<span class="text-gradient">-</span>
+						<span class="hidden-number">
+							<span class="text-gradient">xx</span>
+						</span>
+						<span class="text-gradient">-</span>
+						<span class="hidden-number">
+							<span class="text-gradient">xx</span>
+						</span>
+						<span class="text-gradient show">Show</span>
+					</div>
+				</div>
+			</div>
+			<div class="app-header__menu">
+				<nav class="menu">
+					<div class="menu__container container">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="#projects" class="menu__link">Project</a></li>
+							<li class="menu__item"><a href="#location" class="menu__link">Location</a></li>
+							<li class="menu__item"><a href="#gallery" class="menu__link">Gallery</a></li>
+							<li class="menu__item"><a href="#virtual-tour" class="menu__link">Virtual tour</a></li>
+							<li class="menu__item"><a href="#excursion" class="menu__link">Excursion</a></li>
+							<li class="menu__item"><a href="#investment" class="menu__link">Investment</a></li>
+							<li class="menu__item"><a href="#developer" class="menu__link">Developer</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- main banner -->
+		<section class="main-banner section-lines">
+			<div class="main-banner__bg" style="background-image: url('@img/main-banner-bg.jpg');">
+				<div class="main-banner__bg-gradient"></div>
+				<div class="container-lines container">
+					<div class="section-line section-line-left"></div>
+					<div class="section-line section-line-center"></div>
+					<div class="section-line section-line-right"></div>
+				</div>
+				<div class="main-banner__scroll-down">
+					<svg class="oval" width="28" height="40" viewBox="0 0 28 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M14 40C17.713 40 21.274 38.525 23.8995 35.8995C26.525 33.274 28 29.713 28 26V14C28 10.287 26.525 6.72601 23.8995 4.1005C21.274 1.475 17.713 0 14 0C10.287 0 6.72602 1.475 4.10051 4.1005C1.475 6.72601 0 10.287 0 14V26C0 29.713 1.475 33.274 4.10051 35.8995C6.72602 38.525 10.287 40 14 40ZM2 14C2 10.8174 3.26428 7.76515 5.51472 5.51472C7.76516 3.26428 10.8174 2 14 2C17.1826 2 20.2348 3.26428 22.4853 5.51472C24.7357 7.76515 26 10.8174 26 14V26C26 29.1826 24.7357 32.2348 22.4853 34.4853C20.2348 36.7357 17.1826 38 14 38C10.8174 38 7.76516 36.7357 5.51472 34.4853C3.26428 32.2348 2 29.1826 2 26V14Z" fill="white"/>
+					</svg>
+					<svg class="arrow" width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M6.00004 13.5H6.09004L6.29004 13.71C6.383 13.8037 6.4936 13.8781 6.61546 13.9289C6.73732 13.9797 6.86803 14.0058 7.00004 14.0058C7.13205 14.0058 7.26276 13.9797 7.38461 13.9289C7.50647 13.8781 7.61707 13.8037 7.71004 13.71L7.91004 13.5H8.00004V13.41L13.71 7.71L12.29 6.29L8.00004 10.59V0H6.00004V10.59L1.71004 6.29L0.290039 7.71L6.00004 13.41V13.5Z" fill="white"/>
+					</svg>
+				</div>
+			</div>
+			<div class="main-banner__pin">
+				<!-- main banner -->
+				<div class="main-banner__container container">
+					<h1 class="main-banner__title">Dubai Hills</h1>
+					<div class="main-banner__play lg-videos">
+						<button class="main-banner__btn-play btn lg-video" 
+						type="button" 
+						data-lg-size="1320-758" 
+						data-src="//www.youtube.com/watch?v=egyIeygdS_E"
+						data-poster="https://img.youtube.com/vi/egyIeygdS_E/maxresdefault.jpg"
+						>
+							<svg class="ico" width="46" height="52" viewBox="0 0 46 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M3.66522e-06 2.4197C3.73208e-06 0.890042 1.64732 -0.0733876 2.98053 0.676542L44.9011 24.2568C46.2604 25.0215 46.2604 26.9785 44.9011 27.7431L2.98053 51.3235C1.64732 52.0734 1.5369e-06 51.11 1.60376e-06 49.5803L3.66522e-06 2.4197Z" fill="currentColor"/>
+							</svg>
+						</button>
+						<div class="main-banner__play-text">watch the video</div>
+					</div>
+				</div>
+				<!-- main about -->
+				<div id="about" class="main-banner__about main-about">
+					<div class="main-about__container container container_pb">
+						<h2 class="main-about__title">city within a city</h2>
+						<div class="main-about__description lines">Dubai Hills Estate located in Mohammed Bin Rashid City - in the center of Dubai. Upon completion, Dubai Hills will comprise:</div>
+						<div class="main-about__list">
+							<div class="main-about__item">
+								<div class="main-about__num">22,000</div>
+								<div class="main-about__name">apartments</div>
+							</div>
+							<div class="main-about__item">
+								<div class="main-about__num">4,600</div>
+								<div class="main-about__name">villas</div>
+							</div>
+							<div class="main-about__item">
+								<div class="main-about__num">282,000</div>
+								<div class="main-about__name">sq. m, office space </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- key features -->
+		<section class="key-features section-lines">
+			<div class="key-features__container container container_pb">
+				<div class="section-line section-line-left"></div>
+				<div class="section-line section-line-center"></div>
+				<div class="section-line section-line-right"></div>
+				<h2 class="key-features__title text-gradient gs-anim">Key Features</h2>
+				<div class="key-features__list">
+					<figure class="key-features__item key-features__item_odd">
+						<div class="key-features__img gs-anim">
+							<div class="box"></div>
+							<div class="key-features__img-box">
+								<img src="@img/key-features-img1.jpg" alt="">
+							</div>
+						</div>
+						<figcaption class="key-features__name gs-anim"><h4>18-hole championship <br> golf course</h4></figcaption>
+					</figure>
+					<figure class="key-features__item key-features__item_even">
+						<div class="key-features__img gs-anim">
+							<div class="box"></div>
+							<div class="key-features__img-box">
+								<img src="@img/key-features-img2.jpg" alt="">
+							</div>
+						</div>
+						<figcaption class="key-features__name gs-anim"><h4>2 mln sq. ft. shopping center with marketplaces, restaurants, cafes</h4></figcaption>
+					</figure>
+					<figure class="key-features__item key-features__item_odd">
+						<div class="key-features__img gs-anim">
+							<div class="box"></div>
+							<div class="key-features__img-box">
+								<img src="@img/key-features-img3.jpg" alt="">
+							</div>
+						</div>
+						<figcaption class="key-features__name gs-anim"><h4>Dubai Hills Park with <br> 45 routes for running <br> and cycling</h4></figcaption>
+					</figure>
+					<figure class="key-features__item key-features__item_even">
+						<div class="key-features__img gs-anim">
+							<div class="box"></div>
+							<div class="key-features__img-box">
+								<img src="@img/key-features-img4.jpg" alt="">
+							</div>
+						</div>
+						<figcaption class="key-features__name gs-anim"><h4>Tennis Academy with <br> 10 outdoor and 4 <br> indoor courts</h4></figcaption>
+					</figure>
+					<figure class="key-features__item key-features__item_odd">
+						<div class="key-features__img gs-anim">
+							<div class="box"></div>
+							<div class="key-features__img-box">
+								<img src="@img/key-features-img5.jpg" alt="">
+							</div>
+						</div>
+						<figcaption class="key-features__name gs-anim"><h4>New drive-in Reel <br> Cinema</h4></figcaption>
+					</figure>
+				</div>
+			</div>
+		</section>
+		<!-- about brochure -->
+		<section class="about-brochure">
+			<div class="about-brochure__bg">
+				<img src="@img/about-bg.jpg" alt="">
+			</div>
+			<div class="about-brochure__container container container_pb">
+				<div class="section-line section-line-left"></div>
+				<div class="section-line section-line-center"></div>
+				<div class="section-line section-line-right"></div>
+				<div class="about-brochure__img">
+					<img src="@img/about-brochure.png" alt="">
+				</div>
+				<h3 class="about-brochure__title gs-anim">Descriptive brochure about all projects within Dubai Hills includes:</h3>
+				<ul class="about-brochure__list checked-list gs-anim">
+					<li class="about-brochure__item"><span class="ico"><svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.79641L7.45192 12L16 1" stroke="white" stroke-width="3"/></svg></span>Lifestyle</li>
+					<li class="about-brochure__item"><span class="ico"><svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.79641L7.45192 12L16 1" stroke="white" stroke-width="3"/></svg></span>Masterplan</li>
+					<li class="about-brochure__item"><span class="ico"><svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.79641L7.45192 12L16 1" stroke="white" stroke-width="3"/></svg></span>Information about stores</li>
+					<li class="about-brochure__item"><span class="ico"><svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.79641L7.45192 12L16 1" stroke="white" stroke-width="3"/></svg></span>Planned projects of the area</li>
+				</ul>
+				<div class="about-brochure__form download-brochure-form gs-anim">
+					<h6 class="download-brochure-form__title">download brochure <br> in one click</h6>
+					<form action="#" class="download-brochure-form__form">
+						<div class="download-brochure-form__input">
+							<input class="form-control" type="text" placeholder="Your name">
+						</div>
+						<div class="download-brochure-form__input">
+							<input class="form-control" type="email" placeholder="Your email">
+						</div>
+						<div class="download-brochure-form__input">
+							<input class="form-control" type="tel" placeholder="Phone number">
+						</div>
+						<button class="download-brochure-form__btn btn btn-gradient" type="button">Download brochure (1.5mb)</button>
+						<div class="download-brochure-form__ann">14 Pages | Download time - 7 sec.</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- projects -->
+		<section id="projects" class="projects">
+			<div class="container-lines container">
+				<div class="section-line section-line-left"></div>
+				<div class="section-line section-line-center"></div>
+				<div class="section-line section-line-right"></div>
+			</div>
+			<div class="projects__container">
+				<div class="container container_pb">
+					<h2 class="projects__title text-gradient gs-anim">Luxury Villas & Apartments</h2>
+				</div>
+				<!-- Collective 2 -->
+				<div class="projects__item project">
+					<div class="container container_pb">
+						<h3 class="project__title"><span class="tx">Collective 2</span> <span class="box"></span></h3>
+					</div>
+					<div class="projects__gallery project-gallery">
+						<div class="container container_pb">
+							<ul class="project-gallery__nav nav nav-pills" id="collective-2-tab" role="tablist">
+								<li class="project-gallery__nav-item nav-item" role="presentation">
+									<button class="project-gallery__nav-link nav-link active" id="collective-2-exterior-tab" data-bs-toggle="pill" data-bs-target="#collective-2-exterior" type="button" role="tab" aria-controls="collective-2-exterior" aria-selected="true">Exterior</button>
+								</li>
+								<li class="project-gallery__nav-item nav-item" role="presentation">
+									<button class="project-gallery__nav-link nav-link" id="collective-2-interior-tab" data-bs-toggle="pill" data-bs-target="#collective-2-interior" type="button" role="tab" aria-controls="collective-2-interior" aria-selected="false">Interior</button>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-content project-gallery__body" id="collective-2-tabContent">
+							<div class="project-gallery__tab-pane tab-pane fade show active" id="collective-2-exterior" role="tabpanel" aria-labelledby="collective-2-exterior-tab">
+								<div class="projects__gallery projects-gallery swiper">
+									<div class="projects-gallery__wrap swiper-wrapper">
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-1-1.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-1-2.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-1-3.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-1-4.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-1-5.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-1-6.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-1-7.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-1-8.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="projects-gallery__nav-box container">
+										<div class="projects-gallery__nav projects-gallery__nav_next swiper-button-next">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+										<div class="projects-gallery__nav projects-gallery__nav_prev swiper-button-prev">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="project-gallery__tab-pane tab-pane fade" id="collective-2-interior" role="tabpanel" aria-labelledby="collective-2-interior-tab">
+								<div class="projects__gallery projects-gallery swiper">
+									<div class="projects-gallery__wrap swiper-wrapper">
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-1-1.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-1-2.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-1-3.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-1-4.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-1-5.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-1-6.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="projects-gallery__nav-box container">
+										<div class="projects-gallery__nav projects-gallery__nav_next swiper-button-next">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+										<div class="projects-gallery__nav projects-gallery__nav_prev swiper-button-prev">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="projects__info project-info">
+						<div class="project-info__container container container_pb">
+							<div class="project-info__description gs-anim">
+								<ul class="project-info__list content-list">
+									<li>1 and 2 bedroom apartments</li>
+									<li>1 minute away from Dubai Hills Park</li>
+									<li>Casual concierge service</li>
+								</ul>
+							</div>
+							<div class="project-info__download gs-anim">
+								<div class="project-info__download-text">Prices, floorplans and availabilities</div>
+								<button class="project-info__btn btn btn-gradient" type="button" data-bs-toggle="modal" data-bs-target="#specialOffer">Download pdf file  (1.5mb)</button>
+							</div>
+							<div class="project-info__floorplans project-floorpans gs-anim">
+								<div class="project-floorpans__swiper project-floorpans-swiper swiper">
+									<div class="project-floorpans__wrap swiper-wrapper">
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-1-1.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-1-2.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-1-3.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-1-4.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="project-floorpans__nav-box">
+										<div class="project-floorpans__nav project-floorpans__nav_next swiper-button-next">
+											<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+											</svg>
+										</div>
+										<div class="project-floorpans__nav project-floorpans__nav_prev swiper-button-prev">
+											<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Executive Residences -->
+				<div class="projects__item project">
+					<div class="container container_pb">
+						<h3 class="project__title"><span class="tx">Executive Residences</span> <span class="box"></span></h3>
+					</div>
+					<div class="projects__gallery project-gallery">
+						<div class="container container_pb">
+							<ul class="project-gallery__nav nav nav-pills" id="executive-residences-tab" role="tablist">
+								<li class="project-gallery__nav-item nav-item" role="presentation">
+									<button class="project-gallery__nav-link nav-link active" id="executive-residences-exterior-tab" data-bs-toggle="pill" data-bs-target="#executive-residences-exterior" type="button" role="tab" aria-controls="executive-residences-exterior" aria-selected="true">Exterior</button>
+								</li>
+								<li class="project-gallery__nav-item nav-item" role="presentation">
+									<button class="project-gallery__nav-link nav-link" id="executive-residences-interior-tab" data-bs-toggle="pill" data-bs-target="#executive-residences-interior" type="button" role="tab" aria-controls="executive-residences-interior" aria-selected="false">Interior</button>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-content project-gallery__body" id="executive-residences-tabContent">
+							<div class="project-gallery__tab-pane tab-pane fade show active" id="executive-residences-exterior" role="tabpanel" aria-labelledby="executive-residences-exterior-tab">
+								<div class="projects__gallery projects-gallery swiper">
+									<div class="projects-gallery__wrap swiper-wrapper">
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-1.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-2.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-3.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-4.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-5.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-6.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-7.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-8.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-9.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-10.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-11.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-12.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-2-13.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="projects-gallery__nav-box container">
+										<div class="projects-gallery__nav projects-gallery__nav_next swiper-button-next">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+										<div class="projects-gallery__nav projects-gallery__nav_prev swiper-button-prev">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="project-gallery__tab-pane tab-pane fade" id="executive-residences-interior" role="tabpanel" aria-labelledby="executive-residences-interior-tab">
+								<div class="projects__gallery projects-gallery swiper">
+									<div class="projects-gallery__wrap swiper-wrapper">
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-2-1.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-2-2.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="projects-gallery__nav-box container">
+										<div class="projects-gallery__nav projects-gallery__nav_next swiper-button-next">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+										<div class="projects-gallery__nav projects-gallery__nav_prev swiper-button-prev">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="projects__info project-info">
+						<div class="project-info__container container container_pb">
+							<div class="project-info__description gs-anim">
+								<ul class="project-info__list content-list">
+									<li>1, 2 and 3 bedroom apartments</li>
+									<li>Fully equipped gym</li>
+									<li>Infinity edge pool</li>
+								</ul>
+							</div>
+							<div class="project-info__download gs-anim">
+								<div class="project-info__download-text">Prices, floorplans and availabilities</div>
+								<button class="project-info__btn btn btn-gradient" type="button" data-bs-toggle="modal" data-bs-target="#specialOffer">Download pdf file  (1.5mb)</button>
+							</div>
+							<div class="project-info__floorplans project-floorpans gs-anim">
+								<div class="project-floorpans__swiper project-floorpans-swiper swiper">
+									<div class="project-floorpans__wrap swiper-wrapper">
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-2-1.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-2-2.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="project-floorpans__nav-box">
+										<div class="project-floorpans__nav project-floorpans__nav_next swiper-button-next">
+											<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+											</svg>
+										</div>
+										<div class="project-floorpans__nav project-floorpans__nav_prev swiper-button-prev">
+											<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Golf Place Villas -->
+				<div class="projects__item project">
+					<div class="container container_pb">
+						<h3 class="project__title"><span class="tx">Golf Place Villas</span> <span class="box"></span></h3>
+					</div>
+					<div class="projects__gallery project-gallery">
+						<div class="container container_pb">
+							<ul class="project-gallery__nav nav nav-pills" id="golf-place-villas-tab" role="tablist">
+								<li class="project-gallery__nav-item nav-item" role="presentation">
+									<button class="project-gallery__nav-link nav-link active" id="golf-place-villas-exterior-tab" data-bs-toggle="pill" data-bs-target="#golf-place-villas-exterior" type="button" role="tab" aria-controls="golf-place-villas-exterior" aria-selected="true">Exterior</button>
+								</li>
+								<li class="project-gallery__nav-item nav-item" role="presentation">
+									<button class="project-gallery__nav-link nav-link" id="golf-place-villas-interior-tab" data-bs-toggle="pill" data-bs-target="#golf-place-villas-interior" type="button" role="tab" aria-controls="golf-place-villas-interior" aria-selected="false">Interior</button>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-content project-gallery__body" id="golf-place-villas-tabContent">
+							<div class="project-gallery__tab-pane tab-pane fade show active" id="golf-place-villas-exterior" role="tabpanel" aria-labelledby="golf-place-villas-exterior-tab">
+								<div class="projects__gallery projects-gallery swiper">
+									<div class="projects-gallery__wrap swiper-wrapper">
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-3-1.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-3-2.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-3-3.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-3-4.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-3-5.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-3-6.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-3-7.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-3-8.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-3-9.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="projects-gallery__nav-box container">
+										<div class="projects-gallery__nav projects-gallery__nav_next swiper-button-next">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+										<div class="projects-gallery__nav projects-gallery__nav_prev swiper-button-prev">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="project-gallery__tab-pane tab-pane fade" id="golf-place-villas-interior" role="tabpanel" aria-labelledby="golf-place-villas-interior-tab">
+								<div class="projects__gallery projects-gallery swiper">
+									<div class="projects-gallery__wrap swiper-wrapper">
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-3-1.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-3-2.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-3-3.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-3-4.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-3-5.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="projects-gallery__nav-box container">
+										<div class="projects-gallery__nav projects-gallery__nav_next swiper-button-next">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+										<div class="projects-gallery__nav projects-gallery__nav_prev swiper-button-prev">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="projects__info project-info">
+						<div class="project-info__container container container_pb">
+							<div class="project-info__description gs-anim">
+								<ul class="project-info__list content-list">
+									<li>4,5 and 6 bedroom villas</li>
+									<li>Close proximity to 18-hole <br> championship golf cource</li>
+									<li>Private terrace and garden area</li>
+									<li>Floor-to-ceiling windows</li>
+								</ul>
+							</div>
+							<div class="project-info__download gs-anim">
+								<div class="project-info__download-text">Prices, floorplans and availabilities</div>
+								<button class="project-info__btn btn btn-gradient" type="button" data-bs-toggle="modal" data-bs-target="#specialOffer">Download pdf file  (1.5mb)</button>
+							</div>
+							<div class="project-info__floorplans project-floorpans gs-anim">
+								<div class="project-floorpans__swiper project-floorpans-swiper swiper">
+									<div class="project-floorpans__wrap swiper-wrapper">
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-all.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-all.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="project-floorpans__nav-box">
+										<div class="project-floorpans__nav project-floorpans__nav_next swiper-button-next">
+											<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+											</svg>
+										</div>
+										<div class="project-floorpans__nav project-floorpans__nav_prev swiper-button-prev">
+											<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Sidra 3 -->
+				<div class="projects__item project">
+					<div class="container container_pb">
+						<h3 class="project__title"><span class="tx">Sidra 3</span> <span class="box"></span></h3>
+					</div>
+					<div class="projects__gallery project-gallery">
+						<div class="container container_pb">
+							<ul class="project-gallery__nav nav nav-pills" id="sidra-3-tab" role="tablist">
+								<li class="project-gallery__nav-item nav-item" role="presentation">
+									<button class="project-gallery__nav-link nav-link active" id="sidra-3-exterior-tab" data-bs-toggle="pill" data-bs-target="#sidra-3-exterior" type="button" role="tab" aria-controls="sidra-3-exterior" aria-selected="true">Exterior</button>
+								</li>
+								<li class="project-gallery__nav-item nav-item" role="presentation">
+									<button class="project-gallery__nav-link nav-link" id="sidra-3-interior-tab" data-bs-toggle="pill" data-bs-target="#sidra-3-interior" type="button" role="tab" aria-controls="sidra-3-interior" aria-selected="false">Interior</button>
+								</li>
+							</ul>
+						</div>
+						<div class="tab-content project-gallery__body" id="sidra-3-tabContent">
+							<div class="project-gallery__tab-pane tab-pane fade show active" id="sidra-3-exterior" role="tabpanel" aria-labelledby="sidra-3-exterior-tab">
+								<div class="projects__gallery projects-gallery swiper">
+									<div class="projects-gallery__wrap swiper-wrapper">
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-4-1.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-4-2.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/exterior/exterior-4-3.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="projects-gallery__nav-box container">
+										<div class="projects-gallery__nav projects-gallery__nav_next swiper-button-next">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+										<div class="projects-gallery__nav projects-gallery__nav_prev swiper-button-prev">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="project-gallery__tab-pane tab-pane fade" id="sidra-3-interior" role="tabpanel" aria-labelledby="sidra-3-interior-tab">
+								<div class="projects__gallery projects-gallery swiper">
+									<div class="projects-gallery__wrap swiper-wrapper">
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-4-1.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-4-2.jpg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="projects-gallery__item swiper-slide">
+											<div class="container container_pb">
+												<div class="projects-gallery__img">
+													<img src="@img/object-gallery/interior/interior-4-3.jpg" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="projects-gallery__nav-box container">
+										<div class="projects-gallery__nav projects-gallery__nav_next swiper-button-next">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+										<div class="projects-gallery__nav projects-gallery__nav_prev swiper-button-prev">
+											<div class="box">
+												<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="projects__info project-info">
+						<div class="project-info__container container container_pb">
+							<div class="project-info__description gs-anim">
+								<ul class="project-info__list content-list">
+									<li>3, 4 and 5 bedroom villas</li>
+									<li>Private swimming pools</li>
+									<li>Spacious terrace</li>
+								</ul>
+							</div>
+							<div class="project-info__download gs-anim">
+								<div class="project-info__download-text">Prices, floorplans and availabilities</div>
+								<button class="project-info__btn btn btn-gradient" type="button" data-bs-toggle="modal" data-bs-target="#specialOffer">Download pdf file  (1.5mb)</button>
+							</div>
+							<div class="project-info__floorplans project-floorpans gs-anim">
+								<div class="project-floorpans__swiper project-floorpans-swiper swiper">
+									<div class="project-floorpans__wrap swiper-wrapper">
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-4-1.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-4-2.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+										<div class="project-floorpans__item swiper-slide">
+											<div class="project-floorpans__img">
+												<img src="@img/floorplans/floorplans-4-3.png" alt="">
+											</div>
+											<div class="project-floorpans__info-list">
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bedrooms</div>
+													<div class="project-floorpans__info-desc">1</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Bathrooms</div>
+													<div class="project-floorpans__info-desc">2</div>
+												</div>
+												<div class="project-floorpans__info-item">
+													<div class="project-floorpans__info-name">Total area</div>
+													<div class="project-floorpans__info-desc">460.59 sq.ft.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="project-floorpans__nav-box">
+										<div class="project-floorpans__nav project-floorpans__nav_next swiper-button-next">
+											<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+											</svg>
+										</div>
+										<div class="project-floorpans__nav project-floorpans__nav_prev swiper-button-prev">
+											<svg width="16" height="24" viewBox="0 0 16 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+												<path d="M15.5 12L3 0L0 3L9.5 12L0 21L3 24L15.5 12Z"/>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- location -->
+		<section id="location" class="location">
+			<div class="location__body">
+				<div class="location__img-box">
+					<div class="box">
+						<img src="@img/map.jpg" alt="">
+					</div>
+				</div>
+				<div class="location__container container">
+					<h2 class="location__title">location for comfortable stay</h2>
+					<div class="location__tabs">
+						<div class="location__tabs-list">
+							<div data-group="appartments" class="location__tabs-item active">Appartments</div>
+							<div data-group="villas" class="location__tabs-item">Villas</div>
+							<div data-group="shopping" class="location__tabs-item">Shopping</div>
+							<div data-group="restaurant" class="location__tabs-item">Restaurant</div>
+							<div data-group="park" class="location__tabs-item">Park</div>
+							<div data-group="sport" class="location__tabs-item">Sport</div>
+						</div>
+						<div class="location__tabs-map">
+							<div class="location__map" id='map' style='width: 100%; height: 100%;'></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- gallery -->
+		<section id="gallery" class="gallery">
+			<div class="container-lines container">
+				<div class="section-line section-line-left"></div>
+				<div class="section-line section-line-center"></div>
+				<div class="section-line section-line-right"></div>
+			</div>
+			<div class="gallery__container container">
+				<h2 class="gallery__title text-gradient gs-anim">Dubai hills <br> gallEry</h2>
+			</div>
+			<div class="gallery__list-box lg-list">
+				<div class="gallery__list">
+					<div class="gallery__list-wrapper">
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-1.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-1.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-2.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-2.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-3.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-3.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-4.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-4.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-5.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-5.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-6.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-6.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-7.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-7.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gallery__list">
+					<div class="gallery__list-wrapper">
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-2-1.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-2-1.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-2-2.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-2-2.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-2-3.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-2-3.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item gallery__item_video">
+							<div data-lg-size="1080-670" data-src="//www.youtube.com/watch?v=egyIeygdS_E" data-poster="@img/gallery/gallery-img-video.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-video.jpg" alt="">
+								<div class="gallery__play">
+									<svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.595932 2.85915C0.595932 1.3295 2.24325 0.366066 3.57645 1.116L34.1218 18.2977C35.4811 19.0623 35.4811 21.0194 34.1218 21.784L3.57645 38.9658C2.24324 39.7157 0.595931 38.7523 0.595931 37.2226L0.595932 2.85915Z" fill="white"/>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-2-4.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-2-4.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-2-5.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-2-5.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-2-6.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-2-6.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-2-7.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-2-7.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gallery__list">
+					<div class="gallery__list-wrapper">
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-3-1.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-3-1.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-3-2.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-3-2.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-3-3.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-3-3.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item gallery__item_video">
+							<div data-lg-size="1080-670" data-src="//www.youtube.com/watch?v=egyIeygdS_E" data-poster="@img/gallery/gallery-img-video.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-video.jpg" alt="">
+								<div class="gallery__play">
+									<svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.595932 2.85915C0.595932 1.3295 2.24325 0.366066 3.57645 1.116L34.1218 18.2977C35.4811 19.0623 35.4811 21.0194 34.1218 21.784L3.57645 38.9658C2.24324 39.7157 0.595931 38.7523 0.595931 37.2226L0.595932 2.85915Z" fill="white"/>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-3-4.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-3-4.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-3-5.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-3-5.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery__item">
+							<div data-lg-size="1080-670" data-src="@img/gallery/gallery-img-3-6.jpg" class="lg-item">
+								<img src="@img/gallery/gallery-thumbnail-3-6.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- virtual tour -->
+		<section id="virtual-tour" class="virtual-tour">
+			<div class="virtual-tour__container container container_pb">
+				<div class="section-line section-line-left"></div>
+				<div class="section-line section-line-center"></div>
+				<div class="section-line section-line-right"></div>
+				<h2 class="virtual-tour__title text-gradient gs-anim">Virtual tour of <br> the apartment</h2>
+				<div class="virtual-tour__gallery gs-anim">
+					<div class="virtual-tour__gallery-item virtual-tour__gallery-item_big lg-videos">
+						<div class="virtual-tour__gallery-img">
+							<img src="@img/virtual-tour-img-1.jpg" alt="">
+						</div>
+						<div class="virtual-tour__gallery-name">Golf Place Show Villa 201</div>
+						<div class="virtual-tour__gallery-play">
+							<svg width="46" height="52" viewBox="0 0 46 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M3.66522e-06 2.4197C3.73208e-06 0.890042 1.64732 -0.0733876 2.98053 0.676542L44.9011 24.2568C46.2604 25.0215 46.2604 26.9785 44.9011 27.7431L2.98053 51.3235C1.64732 52.0734 1.5369e-06 51.11 1.60376e-06 49.5803L3.66522e-06 2.4197Z" fill="currentColor"/>
+							</svg>
+						</div>
+						<a class="virtual-tour__gallery-item-link lg-video"
+						data-lg-size="1320-758" 
+						data-src="//www.youtube.com/watch?v=egyIeygdS_E"
+						data-poster="https://img.youtube.com/vi/egyIeygdS_E/maxresdefault.jpg"
+						"></a>
+					</div>
+					<div class="virtual-tour__gallery-row">
+						<div class="virtual-tour__gallery-item">
+							<div class="virtual-tour__gallery-img">
+								<img src="@img/virtual-tour-img-1.jpg" alt="">
+							</div>
+							<div class="virtual-tour__gallery-name">2 Bedroom Apartment <br> in Park Ridge</div>
+							<div class="virtual-tour__gallery-play">
+								<svg width="46" height="52" viewBox="0 0 46 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M3.66522e-06 2.4197C3.73208e-06 0.890042 1.64732 -0.0733876 2.98053 0.676542L44.9011 24.2568C46.2604 25.0215 46.2604 26.9785 44.9011 27.7431L2.98053 51.3235C1.64732 52.0734 1.5369e-06 51.11 1.60376e-06 49.5803L3.66522e-06 2.4197Z" fill="currentColor"/>
+								</svg>
+							</div>
+							<a href="#" class="virtual-tour__gallery-item-link" data-bs-toggle="modal" data-bs-target="#exampleModal"></a>
+						</div>
+						<div class="virtual-tour__gallery-item">
+							<div class="virtual-tour__gallery-img">
+								<img src="@img/virtual-tour-img-1.jpg" alt="">
+							</div>
+							<div class="virtual-tour__gallery-name">2 Bedroom Apartment in <br> Park Ridge</div>
+							<div class="virtual-tour__gallery-play">
+								<svg width="46" height="52" viewBox="0 0 46 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M3.66522e-06 2.4197C3.73208e-06 0.890042 1.64732 -0.0733876 2.98053 0.676542L44.9011 24.2568C46.2604 25.0215 46.2604 26.9785 44.9011 27.7431L2.98053 51.3235C1.64732 52.0734 1.5369e-06 51.11 1.60376e-06 49.5803L3.66522e-06 2.4197Z" fill="currentColor"/>
+								</svg>
+							</div>
+							<a href="#" class="virtual-tour__gallery-item-link" data-bs-toggle="modal" data-bs-target="#exampleModal"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- excursion -->
+		<section id="excursion" class="excursion">
+			<div class="excursion__bg">
+				<img src="@img/excursion-bg.jpg" alt="">
+			</div>
+			<div class="container-lines container">
+				<div class="section-line section-line-left"></div>
+				<div class="section-line section-line-center"></div>
+				<div class="section-line section-line-right"></div>
+			</div>
+			<div class="excursion__body">
+				<div class="excursion__container container container_pb">
+					<div class="section-line section-line-left"></div>
+					<div class="section-line section-line-center"></div>
+					<div class="section-line section-line-right"></div>
+					<h2 class="excursion__title text-gradient gs-anim">Plan your in-Person <br> Apartment Visit</h2>
+					<div class="excursion__box">
+						<div class="excursion__text">
+							<div class="excursion__description gs-anim">
+								<p>It’s better to see once than to hear about it a thousand times.</p>
+								<p>Our expert will meet with you at a time convenient for you, show all available Dubai Hills units, and tell you about the features of the area.</p>
+							</div>
+							<div class="excursion__lists">
+								<div class="excursion__list-box">
+									<div class="excursion__list-title gs-anim">Apartments</div>
+									<ul class="excursion__list content-list">
+										<li class="excursion__list-item gs-anim">Collective 2</li>
+										<li class="excursion__list-item gs-anim">Executive Residences</li>
+										<li class="excursion__list-item gs-anim">Park Point</li>
+										<li class="excursion__list-item gs-anim">Park Ridge</li>
+										<li class="excursion__list-item gs-anim">Mulberry</li>
+									</ul>
+								</div>
+								<div class="excursion__list-box">
+									<div class="excursion__list-title gs-anim">Villas</div>
+									<ul class="excursion__list content-list">
+										<li class="excursion__list-item gs-anim">Sidra</li>
+										<li class="excursion__list-item gs-anim">Golf Grove</li>
+										<li class="excursion__list-item gs-anim">Golf Place</li>
+										<li class="excursion__list-item gs-anim">Maple</li>
+										<li class="excursion__list-item gs-anim">Club Villas</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="excursion__form-box excursion-form">
+							<form action="#" class="excursion-form__body">
+								<h5 class="excursion-form__title">book a viewing</h5>
+								<div class="excursion-form__input">
+									<input type="name" class="form-control" placeholder="Your name">
+								</div>
+								<div class="excursion-form__input">
+									<input type="email" class="form-control" placeholder="qerwt@gmail.com">
+								</div>
+								<div class="excursion-form__input">
+									<input type="tel" class="form-control" placeholder="Phone number">
+								</div>
+								<div class="excursion-form__input">
+									<input type="text" class="form-control" name="datepicker" placeholder="Convenient visit date">
+								</div>
+								<div class="excursion-form__input">
+									<select class="form-select">
+										<option selected>What project are you interested in</option>
+										<option value="1">One</option>
+										<option value="2">Two</option>
+										<option value="3">Three</option>
+									</select>
+								</div>
+								<button class="excursion-form__btn btn btn-light btn-ico-arrow" type="submit">Send
+									<svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M9.0362 0.347656L8.14534 1.23856L12.1097 5.20292H0.608398V6.46286H12.1097L8.14534 10.4272L9.0362 11.3181L14.5214 5.83285L9.0362 0.347656Z" fill="currentColor"/>
+									</svg>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- investment -->
+		<section id="investment" class="investment">
+			<div class="investment__container container container_pb">
+				<div class="section-line section-line-left"></div>
+				<div class="section-line section-line-center"></div>
+				<div class="section-line section-line-right"></div>
+				<div class="investment__body">
+					<div class="investment__left">
+						<h2 class="investment__title text-gradient gs-anim">Special Offer</h2>
+						<div class="investment__description gs-anim">
+							<p>"Home Ownership with a Business License" program by Emaar:</p>
+							<p style="font-weight: 600;">Pay 20 <span class="symbol-text">%</span> for apartment in Executive Residences II (1-3 bedrooms) and get a free 3-year renewable business license and family residency visas.</p>
+						</div>
+					</div>
+					<div class="investment__right">
+						<div class="investment__visa">
+							<div class="investment__ico">
+								<svg width="52" height="60" viewBox="0 0 52 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M49.3638 28.9502L38.9771 18.563C38.6826 18.2778 38.3545 18.0293 38 17.8232V1C38 0.447754 37.5523 0 37 0H5C2.23975 0.00341798 0.00341798 2.23975 0 5V45C0.00341798 47.7603 2.23975 49.9966 5 50H29.0508C29.5723 55.6597 34.3164 59.9927 40 60H51C51.5523 60 52 59.5522 52 59V35.313C52.0064 32.9253 51.0571 30.6338 49.3638 28.9502ZM2 45V5C2 3.34326 3.34326 2 5 2H36V39.5859L28.979 32.5649C27.7246 31.2583 25.8613 30.7324 24.1089 31.1899C22.356 31.6475 20.9883 33.0171 20.5327 34.7705C20.0772 36.5239 20.6055 38.3862 21.9141 39.6392L23.1138 40.8452C23.1211 40.8521 23.123 40.8618 23.1299 40.8691C23.1372 40.876 23.146 40.8779 23.1538 40.8848L28.1191 45.8569C28.6831 46.4175 29.0005 47.1797 29 47.9751L5 48C3.34326 48 2 46.6567 2 45ZM23.3252 38.2212C22.7593 37.6602 22.4409 36.896 22.4409 36.0996C22.4409 35.3027 22.7593 34.5391 23.3252 33.978C24.5098 32.8457 26.3755 32.8457 27.5601 33.978L28.084 34.501L23.8428 38.7422L23.3252 38.2212ZM50 58H40C35.0317 57.9946 31.0054 53.9683 31 49V47.9751C31.0029 46.6494 30.4766 45.3779 29.5381 44.4419L25.2578 40.1558L29.5 35.9141L39.293 45.707C39.6856 46.0859 40.3091 46.0806 40.6948 45.6948C41.0806 45.3091 41.0859 44.6855 40.707 44.293L38 41.5859V20.415L47.9502 30.3638C49.2666 31.6738 50.0044 33.4561 50 35.313V58Z" fill="currentColor"/>
+									<path d="M5.00003 11.9995C5.55228 11.9995 6.00003 11.5518 6.00003 10.9995V6.99953C6.00003 6.44728 6.44779 5.99953 7.00003 5.99953H11C11.5523 5.99953 12 5.55178 12 4.99953C12 4.44728 11.5523 3.99953 11 3.99953H7.00003C5.3433 3.99953 4.00003 5.34279 4.00003 6.99953V10.9995C4.00003 11.5518 4.44779 11.9995 5.00003 11.9995Z" fill="currentColor"/>
+									<path d="M11 44.0001H7.00003C6.44779 44.0001 6.00003 43.5523 6.00003 43.0001V39.0001C6.00003 38.4478 5.55228 38.0001 5.00003 38.0001C4.44779 38.0001 4.00003 38.4478 4.00003 39.0001V43.0001C4.00003 44.6568 5.3433 46.0001 7.00003 46.0001H11C11.5523 46.0001 12 45.5523 12 45.0001C12 44.4478 11.5523 44.0001 11 44.0001Z" fill="currentColor"/>
+									<path d="M29.0002 16.9999C29.0002 11.477 24.5232 6.99993 19.0002 6.99993C13.4773 6.99993 9.0002 11.477 9.0002 16.9999C9.0002 22.5229 13.4773 26.9999 19.0002 26.9999C24.5207 26.9941 28.9943 22.5204 29.0002 16.9999ZM26.9314 15.9999H24.9714C24.8899 14.0644 24.4065 12.1669 23.551 10.4291C25.4172 11.7221 26.6462 13.7475 26.9314 15.9999ZM18.0002 9.29974V15.9999H15.0354C15.2561 12.6161 16.5734 10.12 18.0002 9.29974ZM18.0002 17.9999V24.7001C16.5734 23.8769 15.2561 21.3808 15.0354 17.9999H18.0002ZM20.0002 24.7001V17.9999H22.965C22.7443 21.3837 21.427 23.8798 20.0002 24.7001ZM20.0002 15.9999V9.29974C21.427 10.123 22.7443 12.6191 22.965 15.9999H20.0002ZM14.4494 10.4291C13.594 12.1669 13.1106 14.0644 13.029 15.9999H11.069C11.3542 13.7475 12.5832 11.7221 14.4494 10.4291ZM11.069 17.9999H13.029C13.1106 19.9355 13.594 21.8329 14.4494 23.5707C12.5832 22.2778 11.3542 20.2524 11.069 17.9999ZM23.551 23.5707C24.4065 21.8329 24.8899 19.9355 24.9714 17.9999H26.9314C26.6462 20.2524 25.4172 22.2778 23.551 23.5707Z" fill="currentColor"/>
+								</svg>
+							</div>
+							<div class="investment__desc">Renewable visa  for </div>
+							<h3 class="investment__year">3 years</h3>
+							<div class="investment__btn-box">
+								<button class="investment__btn btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#specialOffer">Explore the offer</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="dark-cantainer">
+			<div class="container-lines container">
+				<div class="section-line section-line-left"></div>
+				<div class="section-line section-line-center"></div>
+				<div class="section-line section-line-right"></div>
+			</div>
+			<div class="dark-cantainer__shine dark-cantainer__shine_top"></div>
+			<div class="dark-cantainer__shine dark-cantainer__shine_mid"></div>
+			<div class="dark-cantainer__shine dark-cantainer__shine_bot"></div>
+			<!-- Information about the developer -->
+			<section id="developer" class="developer">
+				<div class="developer__container container container_pb">
+					<h2 class="developer__title gs-anim">Information about the developer</h2>
+					<div class="developer__list">
+						<div class="developer__item developer-card developer-card_odd">
+							<div class="developer-card__img gs-anim">
+								<img src="@img/developer-img-1.jpg" alt="">
+							</div>
+							<div class="developer-card__text">
+								<h3 class="developer-card__title gs-anim">Emaar</h3>
+								<div class="developer-card__description gs-anim">Established in 1997, Emaar is the pioneering developer of integrated, master-planned communities in the UAE and 12 countries around the world.</div>
+								<div class="developer-card__list-title gs-anim">The strength of Emaar (fy 2021): </div>
+								<div class="developer-card__list">
+									<div class="developer-card__item">
+										<div class="developer-card__item-title gs-anim">45,64 bln $</div>
+										<div class="developer-card__item-desc gs-anim">Market cap</div>
+									</div>
+									<div class="developer-card__item">
+										<div class="developer-card__item-title gs-anim">7,7 bln $</div>
+										<div class="developer-card__item-desc gs-anim">Revenue</div>
+									</div>
+									<div class="developer-card__item">
+										<div class="developer-card__item-title gs-anim">1,035 bln$</div>
+										<div class="developer-card__item-desc gs-anim">Net profit</div>
+									</div>
+									<div class="developer-card__item">
+										<div class="developer-card__item-title gs-anim">52,000</div>
+										<div class="developer-card__item-desc gs-anim">Total unites delivered </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="developer__item developer-card developer-card_even">
+							<div class="developer-card__img gs-anim">
+								<img src="@img/developer-img-2.jpg" alt="">
+							</div>
+							<div class="developer-card__text">
+								<h3 class="developer-card__title gs-anim">Meraas</h3>
+								<div class="developer-card__description gs-anim">Meraas is committed to creating and consistently delivering developments that strengthen Dubai’s position as a global real estate investment destination of choice.</div>
+								<div class="developer-card__list-title gs-anim">The strength of Meraas: </div>
+								<div class="developer-card__list">
+									<div class="developer-card__item">
+										<div class="developer-card__item-title gs-anim">2000+</div>
+										<div class="developer-card__item-desc gs-anim">commercial objects</div>
+									</div>
+									<div class="developer-card__item">
+										<div class="developer-card__item-title gs-anim">3500+</div>
+										<div class="developer-card__item-desc gs-anim">apartments in <br> 5 districts of the city</div>
+									</div>
+									<div class="developer-card__item">
+										<div class="developer-card__item-title gs-anim">1300+</div>
+										<div class="developer-card__item-desc gs-anim">hotel rooms</div>
+									</div>
+									<div class="developer-card__item">
+										<div class="developer-card__item-title gs-anim">4,9 bln $</div>
+										<div class="developer-card__item-desc gs-anim">invested in the entertainment sector.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- footer Request a call -->
+			<section class="footer-request-a-call">
+				<div class="footer-request-a-call__container container container_pb">
+					<div class="footer-request-a-call__body">
+						<div class="footer-request-a-call__top-line"></div>
+						<div class="footer-request-a-call__left-line"></div>
+						<div class="footer-request-a-call__right-line"></div>
+						<div class="footer-request-a-call__bot-line-left"></div>
+						<div class="footer-request-a-call__bot-line-right"></div>
+						<h3 class="footer-request-a-call__title text-gradient gs-anim">You can get consultation from our  expert</h3>
+						<div class="footer-request-a-call__row">
+							<div class="footer-request-a-call__text">
+								<div class="footer-request-a-call__list">
+									<div class="footer-request-a-call__item gs-anim">
+										<div class="footer-request-a-call__ico">
+											<img src="@img/request-a-call-ico-1.svg" alt="">
+										</div>
+										<div class="footer-request-a-call__desc">Our specialists will contact you at a time convenient for you</div>
+									</div>
+									<div class="footer-request-a-call__item gs-anim">
+										<div class="footer-request-a-call__ico">
+											<img src="@img/request-a-call-ico-2.svg" alt="">
+										</div>
+										<div class="footer-request-a-call__desc">Our experts will answer any of your questions</div>
+									</div>
+									<div class="footer-request-a-call__item gs-anim">
+										<div class="footer-request-a-call__ico">
+											<img src="@img/request-a-call-ico-3.svg" alt="">
+										</div>
+										<div class="footer-request-a-call__desc">You will get all PDFs (brochures, payment plans, price lists, floorplans)</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer-request-a-call__form-box gs-anim">
+								<form action="#" class="footer-request-a-call__form">
+									<div class="footer-request-a-call__input">
+										<input class="form-control" type="text" placeholder="Your name">
+									</div>
+									<div class="footer-request-a-call__input">
+										<input class="form-control" type="email" placeholder="Your email">
+									</div>
+									<div class="footer-request-a-call__input">
+										<input class="form-control" type="tel" placeholder="Phone number">
+									</div>
+									<button class="footer-request-a-call__btn btn btn-light btn-ico-arrow" type="submit">Request a call
+										<svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M9.0362 0.347656L8.14534 1.23856L12.1097 5.20292H0.608398V6.46286H12.1097L8.14534 10.4272L9.0362 11.3181L14.5214 5.83285L9.0362 0.347656Z" fill="currentColor"/>
+										</svg>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- footer -->
+			<footer class="app-footer">
+				<div class="app-footer__container container container_pb">
+					<div class="app-footer__body">
+						<div class="app-footer__logo">
+							<img src="@img/logo.svg" alt="">
+						</div>
+						<div class="app-footer__follow-us footer-follow-us">
+							<div class="footer-follow-us__title">Follow us</div>
+							<div class="footer-follow-us__list">
+								<div class="footer-follow-us__item">
+									<a href="#" target="_blank" class="footer-follow-us__link">
+										<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M13.2367 0.240592C15.0793 0.793828 16.4002 2.15519 16.8694 3.98448C17.0064 4.51836 17.0064 12.5632 16.8694 13.0971C16.386 14.9817 14.9827 16.384 13.0967 16.867C12.5624 17.0039 4.51157 17.0039 3.97729 16.867C2.13158 16.3944 0.752158 15.0468 0.226201 13.2027C0.12245 12.839 0.111348 12.3877 0.111348 8.54078C0.111348 3.88496 0.1017 4.01696 0.509302 3.09605C1.13425 1.68397 2.55101 0.512391 3.97722 0.228179C4.17712 0.188294 4.40015 0.143258 4.47285 0.12807C4.54554 0.112882 6.4636 0.106939 8.73522 0.114797C12.3934 0.127476 12.9079 0.141871 13.2367 0.240592ZM4.25907 1.9071C3.69042 2.0601 3.24337 2.32682 2.78092 2.78899C2.30802 3.26147 2.04997 3.70007 1.89507 4.29431C1.74684 4.8628 1.74916 12.2274 1.89765 12.7972C2.0542 13.3977 2.3667 13.9176 2.83378 14.3541C3.3037 14.7934 3.72267 15.0308 4.28735 15.1778C4.85626 15.3259 12.2263 15.3236 12.7966 15.1752C13.3975 15.0187 13.9177 14.7065 14.3546 14.2397C14.7943 13.7702 15.0318 13.3515 15.1789 12.7872C15.325 12.2267 15.325 4.85481 15.1789 4.29431C15.0318 3.73004 14.7943 3.31139 14.3546 2.84182C13.9177 2.37509 13.3975 2.06281 12.7966 1.90638C12.2447 1.76275 4.79309 1.76335 4.25907 1.9071ZM13.1988 3.13362C13.5588 3.22416 13.9282 3.60537 13.9937 3.95384C14.0931 4.48323 13.6874 5.11828 13.1902 5.21146C12.6421 5.31421 12.1735 5.07919 11.9586 4.59384C11.7021 4.01446 11.9882 3.3757 12.6011 3.15911C12.927 3.04395 12.8548 3.04705 13.1988 3.13362ZM9.49095 4.28183C10.7034 4.5385 11.8725 5.44852 12.4231 6.56437C12.7941 7.31604 12.9204 7.92666 12.8799 8.7721C12.8248 9.92274 12.4324 10.7881 11.5768 11.6461C10.7568 12.4684 9.71649 12.896 8.53102 12.8981C7.33795 12.9001 6.33488 12.4795 5.46284 11.6114C4.59695 10.7494 4.17547 9.74406 4.17547 8.54078C4.17547 7.33882 4.59642 6.33391 5.46244 5.46853C6.547 4.38484 7.98134 3.96229 9.49095 4.28183ZM7.58966 6.05789C6.83427 6.37426 6.44404 6.74392 6.10735 7.46204C5.94644 7.80522 5.92668 7.92336 5.92668 8.54078C5.92668 9.18323 5.94214 9.26676 6.13722 9.67822C6.40036 10.2333 6.84656 10.6763 7.41355 10.9453C7.8088 11.1329 7.89854 11.1491 8.53697 11.1491C9.17937 11.1491 9.26369 11.1335 9.67367 10.9395C10.237 10.6728 10.6706 10.2396 10.9375 9.67663C11.1317 9.26696 11.1473 9.1827 11.1473 8.54078C11.1473 7.89886 11.1317 7.8146 10.9375 7.40492C10.6706 6.84198 10.237 6.40873 9.67367 6.14201C9.28794 5.95943 9.14989 5.93011 8.60305 5.91446C8.06123 5.89888 7.92246 5.91855 7.58966 6.05789Z" fill="currentColor"/>
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M13.2367 0.240592C15.0793 0.793828 16.4002 2.15519 16.8694 3.98448C17.0064 4.51836 17.0064 12.5632 16.8694 13.0971C16.386 14.9817 14.9827 16.384 13.0967 16.867C12.5624 17.0039 4.51157 17.0039 3.97729 16.867C2.13158 16.3944 0.752158 15.0468 0.226201 13.2027C0.12245 12.839 0.111348 12.3877 0.111348 8.54078C0.111348 3.88496 0.1017 4.01696 0.509302 3.09605C1.13425 1.68397 2.55101 0.512391 3.97722 0.228179C4.17712 0.188294 4.40015 0.143258 4.47285 0.12807C4.54554 0.112882 6.4636 0.106939 8.73522 0.114797C12.3934 0.127476 12.9079 0.141871 13.2367 0.240592ZM4.25907 1.9071C3.69042 2.0601 3.24337 2.32682 2.78092 2.78899C2.30802 3.26147 2.04997 3.70007 1.89507 4.29431C1.74684 4.8628 1.74916 12.2274 1.89765 12.7972C2.0542 13.3977 2.3667 13.9176 2.83378 14.3541C3.3037 14.7934 3.72267 15.0308 4.28735 15.1778C4.85626 15.3259 12.2263 15.3236 12.7966 15.1752C13.3975 15.0187 13.9177 14.7065 14.3546 14.2397C14.7943 13.7702 15.0318 13.3515 15.1789 12.7872C15.325 12.2267 15.325 4.85481 15.1789 4.29431C15.0318 3.73004 14.7943 3.31139 14.3546 2.84182C13.9177 2.37509 13.3975 2.06281 12.7966 1.90638C12.2447 1.76275 4.79309 1.76335 4.25907 1.9071ZM13.1988 3.13362C13.5588 3.22416 13.9282 3.60537 13.9937 3.95384C14.0931 4.48323 13.6874 5.11828 13.1902 5.21146C12.6421 5.31421 12.1735 5.07919 11.9586 4.59384C11.7021 4.01446 11.9882 3.3757 12.6011 3.15911C12.927 3.04395 12.8548 3.04705 13.1988 3.13362ZM9.49095 4.28183C10.7034 4.5385 11.8725 5.44852 12.4231 6.56437C12.7941 7.31604 12.9204 7.92666 12.8799 8.7721C12.8248 9.92274 12.4324 10.7881 11.5768 11.6461C10.7568 12.4684 9.71649 12.896 8.53102 12.8981C7.33795 12.9001 6.33488 12.4795 5.46284 11.6114C4.59695 10.7494 4.17547 9.74406 4.17547 8.54078C4.17547 7.33882 4.59642 6.33391 5.46244 5.46853C6.547 4.38484 7.98134 3.96229 9.49095 4.28183ZM7.58966 6.05789C6.83427 6.37426 6.44404 6.74392 6.10735 7.46204C5.94644 7.80522 5.92668 7.92336 5.92668 8.54078C5.92668 9.18323 5.94214 9.26676 6.13722 9.67822C6.40036 10.2333 6.84656 10.6763 7.41355 10.9453C7.8088 11.1329 7.89854 11.1491 8.53697 11.1491C9.17937 11.1491 9.26369 11.1335 9.67367 10.9395C10.237 10.6728 10.6706 10.2396 10.9375 9.67663C11.1317 9.26696 11.1473 9.1827 11.1473 8.54078C11.1473 7.89886 11.1317 7.8146 10.9375 7.40492C10.6706 6.84198 10.237 6.40873 9.67367 6.14201C9.28794 5.95943 9.14989 5.93011 8.60305 5.91446C8.06123 5.89888 7.92246 5.91855 7.58966 6.05789Z" fill="currentColor"/>
+										</svg>
+									</a>
+								</div>
+								<div class="footer-follow-us__item">
+									<a href="#" target="_blank" class="footer-follow-us__link">
+										<svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M9.39444 1.6343L9.4117 3.25948L8.23117 3.28072C6.44618 3.31294 6.43668 3.32262 6.43668 5.10779V6.23975H7.9554C8.7907 6.23975 9.47413 6.24841 9.47413 6.25899C9.47413 6.26958 9.40142 6.96986 9.31256 7.81522C9.2237 8.66051 9.151 9.40727 9.151 9.47468C9.151 9.59109 9.08346 9.59716 7.79384 9.59716H6.43668V14.375V19.1529H4.43326H2.42983V14.375V9.59716H1.49275H0.555664V7.91846V6.23975H1.48525H2.41484L2.44638 4.73861C2.48218 3.03918 2.54933 2.67503 2.97703 1.86189C3.50871 0.851055 4.48276 0.209919 5.73619 0.0458579C5.96155 0.0163515 6.87291 -0.00398673 7.76152 0.000661986L9.37719 0.00918451L9.39444 1.6343Z" fill="currentColor"/>
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M9.39444 1.6343L9.4117 3.25948L8.23117 3.28072C6.44618 3.31294 6.43668 3.32262 6.43668 5.10779V6.23975H7.9554C8.7907 6.23975 9.47413 6.24841 9.47413 6.25899C9.47413 6.26958 9.40142 6.96986 9.31256 7.81522C9.2237 8.66051 9.151 9.40727 9.151 9.47468C9.151 9.59109 9.08346 9.59716 7.79384 9.59716H6.43668V14.375V19.1529H4.43326H2.42983V14.375V9.59716H1.49275H0.555664V7.91846V6.23975H1.48525H2.41484L2.44638 4.73861C2.48218 3.03918 2.54933 2.67503 2.97703 1.86189C3.50871 0.851055 4.48276 0.209919 5.73619 0.0458579C5.96155 0.0163515 6.87291 -0.00398673 7.76152 0.000661986L9.37719 0.00918451L9.39444 1.6343Z" fill="currentColor"/>
+										</svg>
+									</a>
+								</div>
+								<div class="footer-follow-us__item">
+									<a href="#" target="_blank" class="footer-follow-us__link">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M11.8858 1.0859C13.0836 1.34543 14.1819 1.81159 15.2313 2.50591C16.1119 3.08844 17.1971 4.17296 17.78 5.05294C18.4744 6.10108 18.9423 7.20691 19.2089 8.43003C19.3143 8.91354 19.3309 9.15864 19.3327 10.2546C19.3346 11.3773 19.3202 11.5884 19.2063 12.1202C18.7986 14.0241 17.9857 15.5197 16.6127 16.8917C15.5074 17.9963 14.3427 18.7236 12.9261 19.1936C11.8718 19.5434 11.4243 19.6076 10.0263 19.6099C8.89817 19.6117 8.69327 19.5978 8.15514 19.4822C6.25642 19.0745 4.75257 18.2577 3.38471 16.8914C2.28217 15.7901 1.54526 14.6133 1.08132 13.2131C0.728366 12.148 0.666016 11.7081 0.666016 10.2821C0.666016 9.14747 0.681164 8.91926 0.789286 8.42442C1.05813 7.19425 1.51783 6.10895 2.2174 5.05294C2.80086 4.17219 3.88539 3.0886 4.76805 2.50454C5.8285 1.80279 6.96337 1.32765 8.1276 1.0979C8.97495 0.930731 8.93953 0.933208 10.1915 0.952033C11.1149 0.965904 11.4566 0.992931 11.8858 1.0859ZM9.62682 2.46876C9.01951 2.77689 8.36863 3.85916 7.9384 5.27609C7.7991 5.73493 7.57878 6.66269 7.57641 6.80058C7.57548 6.85458 8.09598 6.86938 9.99872 6.86938C11.9011 6.86938 12.4221 6.85458 12.4217 6.80058C12.4205 6.62427 12.1348 5.49891 11.9552 4.96223C11.4549 3.46808 10.7191 2.45511 10.0767 2.3764C9.92403 2.35768 9.79261 2.38465 9.62682 2.46876ZM6.85916 3.00786C5.63512 3.54618 4.58022 4.35835 3.78691 5.37341C3.40173 5.86621 2.8934 6.6753 2.8934 6.79562C2.8934 6.85557 3.19083 6.86938 4.48262 6.86938H6.0719L6.16967 6.36023C6.38988 5.21334 6.84908 3.81149 7.24208 3.0864C7.32861 2.92678 7.38314 2.79748 7.36336 2.79908C7.34353 2.80067 7.11666 2.89463 6.85916 3.00786ZM12.7494 3.08514C13.1342 3.76784 13.5658 5.06836 13.8038 6.26209L13.9248 6.86938H15.5144C16.7494 6.86938 17.104 6.85402 17.104 6.80058C17.1039 6.68179 16.5817 5.84827 16.2063 5.3679C15.3962 4.3311 14.254 3.46648 13.0258 2.96035C12.8067 2.87003 12.6182 2.79616 12.607 2.79616C12.5957 2.79616 12.6598 2.92617 12.7494 3.08514ZM2.32558 8.3418C2.21735 8.5317 2.06676 9.6826 2.0683 10.3082C2.06934 10.7528 2.18848 11.7642 2.2759 12.071L2.32293 12.2361L4.08158 12.2507L5.84018 12.2651V10.2829V8.30051H4.09464C3.13459 8.30051 2.33852 8.31912 2.32558 8.3418ZM7.32112 8.7271C7.26532 9.27831 7.26532 11.2859 7.32112 11.8371L7.3643 12.2637H9.99872H12.6331L12.6757 11.8371C12.7307 11.2859 12.7307 9.27831 12.6757 8.7271L12.6331 8.30051H9.99872H7.3643L7.32112 8.7271ZM14.1573 10.2821V12.2651L15.9159 12.2507L17.6745 12.2361L17.7215 12.071C17.8117 11.7546 17.9281 10.7467 17.9281 10.2821C17.9281 9.81752 17.8117 8.80961 17.7215 8.49317L17.6745 8.32804L15.9159 8.3135L14.1573 8.29903V10.2821ZM2.89345 13.7636C2.89351 13.882 3.41534 14.7154 3.78806 15.1922C4.5865 16.2139 5.65103 17.0304 6.87381 17.5592C7.13935 17.674 7.36628 17.768 7.37801 17.768C7.38975 17.768 7.32861 17.6374 7.24208 17.4778C6.84853 16.7516 6.42821 15.4785 6.19368 14.3021L6.07262 13.6948H4.48301C3.248 13.6948 2.8934 13.7101 2.89345 13.7636ZM7.5757 13.7636C7.57597 13.8015 7.63606 14.0962 7.70926 14.4185C7.99788 15.6901 8.50737 16.917 9.00089 17.5292C9.70768 18.406 10.2898 18.406 10.9965 17.5292C11.4901 16.917 11.9996 15.6901 12.2882 14.4185C12.3614 14.0962 12.4215 13.8015 12.4217 13.7636C12.4221 13.7096 11.9011 13.6948 9.99872 13.6948C8.09637 13.6948 7.57531 13.7096 7.5757 13.7636ZM13.8038 14.3021C13.5658 15.4958 13.1342 16.7963 12.7494 17.479C12.6598 17.6379 12.5988 17.768 12.6136 17.768C12.6286 17.768 12.8581 17.6743 13.1236 17.5599C14.4302 16.9967 15.5177 16.1294 16.3879 14.9565C16.7101 14.5223 17.104 13.8611 17.104 13.7547C17.104 13.7129 16.6228 13.6948 15.5144 13.6948H13.9248L13.8038 14.3021Z" fill="currentColor"/>
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M11.8858 1.0859C13.0836 1.34543 14.1819 1.81159 15.2313 2.50591C16.1119 3.08844 17.1971 4.17296 17.78 5.05294C18.4744 6.10108 18.9423 7.20691 19.2089 8.43003C19.3143 8.91354 19.3309 9.15864 19.3327 10.2546C19.3346 11.3773 19.3202 11.5884 19.2063 12.1202C18.7986 14.0241 17.9857 15.5197 16.6127 16.8917C15.5074 17.9963 14.3427 18.7236 12.9261 19.1936C11.8718 19.5434 11.4243 19.6076 10.0263 19.6099C8.89817 19.6117 8.69327 19.5978 8.15514 19.4822C6.25642 19.0745 4.75257 18.2577 3.38471 16.8914C2.28217 15.7901 1.54526 14.6133 1.08132 13.2131C0.728366 12.148 0.666016 11.7081 0.666016 10.2821C0.666016 9.14747 0.681164 8.91926 0.789286 8.42442C1.05813 7.19425 1.51783 6.10895 2.2174 5.05294C2.80086 4.17219 3.88539 3.0886 4.76805 2.50454C5.8285 1.80279 6.96337 1.32765 8.1276 1.0979C8.97495 0.930731 8.93953 0.933208 10.1915 0.952033C11.1149 0.965904 11.4566 0.992931 11.8858 1.0859ZM9.62682 2.46876C9.01951 2.77689 8.36863 3.85916 7.9384 5.27609C7.7991 5.73493 7.57878 6.66269 7.57641 6.80058C7.57548 6.85458 8.09598 6.86938 9.99872 6.86938C11.9011 6.86938 12.4221 6.85458 12.4217 6.80058C12.4205 6.62427 12.1348 5.49891 11.9552 4.96223C11.4549 3.46808 10.7191 2.45511 10.0767 2.3764C9.92403 2.35768 9.79261 2.38465 9.62682 2.46876ZM6.85916 3.00786C5.63512 3.54618 4.58022 4.35835 3.78691 5.37341C3.40173 5.86621 2.8934 6.6753 2.8934 6.79562C2.8934 6.85557 3.19083 6.86938 4.48262 6.86938H6.0719L6.16967 6.36023C6.38988 5.21334 6.84908 3.81149 7.24208 3.0864C7.32861 2.92678 7.38314 2.79748 7.36336 2.79908C7.34353 2.80067 7.11666 2.89463 6.85916 3.00786ZM12.7494 3.08514C13.1342 3.76784 13.5658 5.06836 13.8038 6.26209L13.9248 6.86938H15.5144C16.7494 6.86938 17.104 6.85402 17.104 6.80058C17.1039 6.68179 16.5817 5.84827 16.2063 5.3679C15.3962 4.3311 14.254 3.46648 13.0258 2.96035C12.8067 2.87003 12.6182 2.79616 12.607 2.79616C12.5957 2.79616 12.6598 2.92617 12.7494 3.08514ZM2.32558 8.3418C2.21735 8.5317 2.06676 9.6826 2.0683 10.3082C2.06934 10.7528 2.18848 11.7642 2.2759 12.071L2.32293 12.2361L4.08158 12.2507L5.84018 12.2651V10.2829V8.30051H4.09464C3.13459 8.30051 2.33852 8.31912 2.32558 8.3418ZM7.32112 8.7271C7.26532 9.27831 7.26532 11.2859 7.32112 11.8371L7.3643 12.2637H9.99872H12.6331L12.6757 11.8371C12.7307 11.2859 12.7307 9.27831 12.6757 8.7271L12.6331 8.30051H9.99872H7.3643L7.32112 8.7271ZM14.1573 10.2821V12.2651L15.9159 12.2507L17.6745 12.2361L17.7215 12.071C17.8117 11.7546 17.9281 10.7467 17.9281 10.2821C17.9281 9.81752 17.8117 8.80961 17.7215 8.49317L17.6745 8.32804L15.9159 8.3135L14.1573 8.29903V10.2821ZM2.89345 13.7636C2.89351 13.882 3.41534 14.7154 3.78806 15.1922C4.5865 16.2139 5.65103 17.0304 6.87381 17.5592C7.13935 17.674 7.36628 17.768 7.37801 17.768C7.38975 17.768 7.32861 17.6374 7.24208 17.4778C6.84853 16.7516 6.42821 15.4785 6.19368 14.3021L6.07262 13.6948H4.48301C3.248 13.6948 2.8934 13.7101 2.89345 13.7636ZM7.5757 13.7636C7.57597 13.8015 7.63606 14.0962 7.70926 14.4185C7.99788 15.6901 8.50737 16.917 9.00089 17.5292C9.70768 18.406 10.2898 18.406 10.9965 17.5292C11.4901 16.917 11.9996 15.6901 12.2882 14.4185C12.3614 14.0962 12.4215 13.8015 12.4217 13.7636C12.4221 13.7096 11.9011 13.6948 9.99872 13.6948C8.09637 13.6948 7.57531 13.7096 7.5757 13.7636ZM13.8038 14.3021C13.5658 15.4958 13.1342 16.7963 12.7494 17.479C12.6598 17.6379 12.5988 17.768 12.6136 17.768C12.6286 17.768 12.8581 17.6743 13.1236 17.5599C14.4302 16.9967 15.5177 16.1294 16.3879 14.9565C16.7101 14.5223 17.104 13.8611 17.104 13.7547C17.104 13.7129 16.6228 13.6948 15.5144 13.6948H13.9248L13.8038 14.3021Z" fill="currentColor"/>
+										</svg>
+									</a>
+								</div>
+								<div class="footer-follow-us__item">
+									<a href="#" target="_blank" class="footer-follow-us__link">
+										<svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M13.5574 0.387404C17.434 0.528247 18.2616 0.676397 18.9922 1.3602C19.5939 1.92338 19.8431 2.67421 20.018 4.45024C20.1257 5.54454 20.1269 9.04652 20.0198 10.1822C19.8584 11.8947 19.7005 12.5455 19.325 13.0456C18.802 13.7421 18.2826 14.0028 17.1288 14.1478C14.0258 14.5379 5.02134 14.5005 2.62158 14.0875C1.39085 13.8757 0.611726 13.1413 0.34929 11.9459C0.0485165 10.5756 -0.0829848 7.6813 0.0544971 5.45805C0.214389 2.87224 0.400216 2.13276 1.0671 1.42716C1.63894 0.822153 2.18144 0.652083 3.98903 0.511304C6.20442 0.338652 10.6367 0.281331 13.5574 0.387404ZM8.04928 7.37921V10.4052L8.35364 10.2307C12.2215 8.0135 13.2699 7.40535 13.2699 7.37921C13.2699 7.35307 12.2215 6.74491 8.35364 4.52771L8.04928 4.35323V7.37921Z" fill="currentColor"/>
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M13.5574 0.387404C17.434 0.528247 18.2616 0.676397 18.9922 1.3602C19.5939 1.92338 19.8431 2.67421 20.018 4.45024C20.1257 5.54454 20.1269 9.04652 20.0198 10.1822C19.8584 11.8947 19.7005 12.5455 19.325 13.0456C18.802 13.7421 18.2826 14.0028 17.1288 14.1478C14.0258 14.5379 5.02134 14.5005 2.62158 14.0875C1.39085 13.8757 0.611726 13.1413 0.34929 11.9459C0.0485165 10.5756 -0.0829848 7.6813 0.0544971 5.45805C0.214389 2.87224 0.400216 2.13276 1.0671 1.42716C1.63894 0.822153 2.18144 0.652083 3.98903 0.511304C6.20442 0.338652 10.6367 0.281331 13.5574 0.387404ZM8.04928 7.37921V10.4052L8.35364 10.2307C12.2215 8.0135 13.2699 7.40535 13.2699 7.37921C13.2699 7.35307 12.2215 6.74491 8.35364 4.52771L8.04928 4.35323V7.37921Z" fill="currentColor"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="app-footer__call-us footer-call-us">
+							<div class="footer-call-us__title">Call us</div>
+							<div class="footer-call-us__list">
+								<div class="footer-call-us__item">
+									<a href="#" class="footer-call-us__link">Call
+										<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M4.27841 0.714021C3.62274 1.08852 1.61813 3.38477 1.04691 4.41565C0.911594 4.65983 0.906341 4.68372 0.93209 4.93528C1.01869 5.77999 1.39705 6.99311 1.91936 8.10071C2.49511 9.32173 3.46873 10.7826 4.57674 12.0881C5.14179 12.7539 6.46606 14.0707 7.12396 14.6211C9.50487 16.6126 11.9028 17.8583 14.0639 18.2262C14.2584 18.2593 14.4718 18.2864 14.5382 18.2864C14.7665 18.2864 15.3956 17.8851 16.3453 17.1335C17.5717 16.163 18.5368 15.2153 18.7023 14.819C18.8346 14.502 18.5747 14.2032 17.6229 13.5781C16.2424 12.6714 14.9568 11.9543 14.3492 11.7519C14.0648 11.6573 14.0426 11.6554 13.9001 11.7143C13.7081 11.7937 13.5814 11.9147 13.0333 12.5421C12.7867 12.8244 12.505 13.132 12.4073 13.2257L12.2297 13.3961L11.9752 13.3309C11.1458 13.1183 10.0257 12.5378 9.0957 11.8386C8.68427 11.5293 7.99143 10.8639 7.60846 10.4103C6.8866 9.55525 6.20188 8.32065 5.92688 7.37831L5.83706 7.07041L6.05268 6.85134C6.17128 6.73085 6.4653 6.46681 6.70608 6.2646C7.26142 5.79823 7.4628 5.59143 7.53945 5.40872C7.59592 5.2741 7.59445 5.24378 7.51987 5.00425C7.29688 4.28798 5.66736 1.56587 5.07851 0.925868C4.75109 0.57 4.60038 0.530125 4.27841 0.714021ZM10.467 1.23128V1.86295L10.656 1.86327C11.4849 1.86469 12.5858 2.12999 13.4406 2.53434C14.9006 3.22495 16.0037 4.29548 16.7151 5.7122C17.1608 6.59997 17.3503 7.26836 17.4399 8.2685L17.4884 8.81134H18.1167H18.7449V8.63787C18.7449 8.33451 18.6674 7.66122 18.5808 7.21242C18.3452 5.99175 17.6893 4.599 16.909 3.66266C15.4831 1.95158 13.5724 0.911418 11.3899 0.658157C11.1124 0.625942 10.7912 0.599609 10.6762 0.599609H10.467V1.23128ZM10.467 4.37831V5.00994L10.7813 5.03596C11.7097 5.11278 12.5158 5.49601 13.1931 6.1826C13.837 6.83531 14.1956 7.60678 14.2728 8.50537L14.299 8.81134H14.9301H15.5611V8.6486C15.5611 8.10398 15.3169 7.13907 15.041 6.59374C14.5555 5.63391 13.6938 4.76955 12.7554 4.30093C12.1637 4.0055 11.5007 3.82406 10.8293 3.77376L10.467 3.74664V4.37831Z" fill="currentColor"/>
+										</svg>
+									</a>
+								</div>
+								<div class="footer-call-us__item">
+									<a href="#" class="footer-call-us__link">WhatsAPP
+										<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M9.4744 0.870696C8.35712 0.985042 7.50464 1.18202 6.62596 1.52896C5.39799 2.01384 4.39933 2.65771 3.43497 3.58641C1.59472 5.35853 0.585518 7.59248 0.478401 10.131C0.409302 11.7693 0.824012 13.5508 1.61014 14.9922C1.70447 15.1653 1.78167 15.3302 1.78163 15.3587C1.78163 15.3873 1.40668 16.5103 0.948414 17.8543C0.490182 19.1983 0.115234 20.3281 0.115234 20.3648C0.115234 20.4456 0.271569 20.5994 0.353612 20.5994C0.38605 20.5994 1.56519 20.2349 2.97387 19.7893C4.38255 19.3437 5.56002 18.9791 5.59045 18.9791C5.62087 18.9791 5.84452 19.0731 6.08743 19.188C6.8822 19.5638 7.87164 19.859 8.83496 20.0077C9.46138 20.1044 10.9599 20.105 11.5865 20.0088C13.7152 19.682 15.6211 18.7337 17.11 17.2605C18.0223 16.3579 18.7577 15.2637 19.2349 14.099C19.5398 13.3548 19.7367 12.6198 19.8859 11.6686C19.9516 11.2498 19.9517 9.7613 19.8861 9.29601C19.5602 6.98453 18.525 4.98687 16.8536 3.44428C15.3922 2.09551 13.6202 1.25451 11.5865 0.944419C11.1968 0.885009 9.80835 0.836555 9.4744 0.870696ZM11.4217 2.94821C13.7001 3.3287 15.667 4.65348 16.8513 6.60526C17.346 7.42061 17.7379 8.53259 17.8674 9.4889C17.9289 9.94289 17.9298 11.0175 17.869 11.4564C17.7662 12.1977 17.4567 13.198 17.1283 13.8501C16.3722 15.3513 15.0142 16.6658 13.5009 17.3613C12.4908 17.8256 11.5921 18.0395 10.482 18.0799C8.95715 18.1354 7.53475 17.7735 6.24291 17.0015C6.05422 16.8887 5.87544 16.8091 5.81662 16.8116C5.76085 16.814 5.14845 16.9961 4.45572 17.2162C3.76298 17.4364 3.19179 17.6134 3.1864 17.6097C3.18097 17.606 3.35975 17.0609 3.58363 16.3984C3.80747 15.736 3.9904 15.1472 3.99005 15.0901C3.98966 15.0277 3.88762 14.8326 3.734 14.6005C3.02948 13.5364 2.60861 12.2765 2.52013 10.9669C2.48336 10.422 2.51548 9.68511 2.59559 9.23815C3.03429 6.78971 4.56318 4.75876 6.80035 3.65253C7.63443 3.24013 8.47129 3.00569 9.57129 2.87626C9.85292 2.84312 11.0776 2.89076 11.4217 2.94821ZM7.1879 5.99627C6.58581 6.09086 6.31562 6.20262 6.03224 6.47433C5.34075 7.13729 5.14198 8.4444 5.56328 9.55858C5.96392 10.6182 7.30935 12.3614 8.42494 13.2664C9.50843 14.1454 10.7476 14.7279 12.1678 15.0258C12.5446 15.1048 13.2379 15.1044 13.54 15.025C14.1179 14.8731 14.8135 14.3749 15.0392 13.9512C15.2443 13.5662 15.3391 12.7464 15.2078 12.4936C15.1573 12.3966 14.9988 12.3052 14.2486 11.9407C13.7543 11.7006 13.2335 11.4586 13.0913 11.4031C12.6166 11.2176 12.4983 11.2617 12.0815 11.7791C11.5841 12.3966 11.4952 12.498 11.4523 12.4975C11.4302 12.4973 11.2764 12.4381 11.1106 12.366C10.4771 12.0907 9.59202 11.4104 8.95885 10.7122C8.68839 10.414 8.25364 9.84444 8.25364 9.78835C8.25364 9.7696 8.37204 9.6181 8.51674 9.45168C8.88394 9.0294 9.00788 8.79307 9.00311 8.52445C8.99993 8.34529 8.93494 8.16209 8.58584 7.34782C8.35839 6.81737 8.12637 6.31705 8.07022 6.23599C7.89191 5.97875 7.67481 5.91977 7.1879 5.99627Z" fill="currentColor"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="app-footer__copy">Ax Capital © 2022 All Rights Reserved</div>
+				</div>
+			</footer>
+		</div>
+		<!-- modal special offer -->
+		<div class="special-offer-modal modal fade" id="specialOffer" tabindex="-1" aria-labelledby="specialOfferLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<button type="button" class="special-offer-modal__close-btn btn" data-bs-dismiss="modal">Close</button>
+					<div class="special-offer-modal__body modal-body">
+						<div class="special-offer-modal__start">
+							<div class="special-offer-modal__bg">
+								<img src="@img/special-offer-modal.jpg" alt="">
+							</div>
+							<div class="special-offer-modal__text">
+								<h6 class="special-offer-modal__title">We have collected information about investments</h6>
+								<div class="special-offer-modal__desc">By uploading the document, you will receive:</div>
+								<div class="special-offer-modal__list">
+									<div class="special-offer-modal__item">
+										<div class="special-offer-modal__item-ico">
+											<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 6.79641L6.45192 12L15 1" stroke="white" stroke-width="1.875"/>
+											</svg>
+										</div>
+										<div class="special-offer-modal__item-desc">Who can get a visa?</div>
+									</div>
+									<div class="special-offer-modal__item">
+										<div class="special-offer-modal__item-ico">
+											<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 6.79641L6.45192 12L15 1" stroke="white" stroke-width="1.875"/>
+											</svg>
+										</div>
+										<div class="special-offer-modal__item-desc">What type of property will <br> be considered and for what value?</div>
+									</div>
+									<div class="special-offer-modal__item">
+										<div class="special-offer-modal__item-ico">
+											<svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 6.79641L6.45192 12L15 1" stroke="white" stroke-width="1.875"/>
+											</svg>
+										</div>
+										<div class="special-offer-modal__item-desc">How to get 0<span class="symbol-text">%</span> personal and corporate <br> income tax and all the benefits from DMCC?</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="special-offer-modal__end">
+							<form action="#" class="special-offer-modal__form">
+								<div class="special-offer-modal__input">
+									<input class="form-control" type="text" placeholder="Your name">
+								</div>
+								<div class="special-offer-modal__input">
+									<input class="form-control" type="email" placeholder="Your email">
+								</div>
+								<div class="special-offer-modal__input">
+									<input class="form-control" type="tel" placeholder="Phone number">
+								</div>
+								<button class="special-offer-modal__btn btn btn-gradient" type="submit">Download file
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M14 13.125C14 13.6082 13.6082 14 13.125 14H0.875C0.391754 14 0 13.6082 0 13.125C0 12.6418 0.391754 12.25 0.875 12.25H13.125C13.6082 12.25 14 12.6418 14 13.125ZM6.38129 10.3531C6.55216 10.524 6.77605 10.6094 7 10.6094C7.22389 10.6094 7.44789 10.524 7.61871 10.3531L10.7189 7.25296C11.0606 6.91124 11.0606 6.35723 10.7189 6.01552C10.3772 5.6738 9.82316 5.6738 9.48145 6.01552L7.875 7.62196V0.875C7.875 0.391754 7.48325 0 7 0C6.51675 0 6.125 0.391754 6.125 0.875V7.62196L4.51855 6.01552C4.17684 5.6738 3.62283 5.6738 3.28111 6.01552C2.9394 6.35723 2.9394 6.91124 3.28111 7.25296L6.38129 10.3531Z" fill="currentColor"/>
+										</svg>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- modal virtual tour -->
+		<div class="virtual-tour-modal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm">
+				<div class="modal-content">
+					<button type="button" class="virtual-tour-modal__close-btn btn" data-bs-dismiss="modal">Close</button>
+					<div class="virtual-tour-modal__body modal-body">
+						<h6 class="virtual-tour-modal__title text-gradient">Get access to all 3D tours Dubai Hills</h6>
+						<form action="#" class="virtual-tour-modal__form">
+							<div class="special-offer-modal__input">
+								<input class="form-control" type="text" placeholder="Your name">
+							</div>
+							<div class="special-offer-modal__input">
+								<input class="form-control" type="email" placeholder="Your email">
+							</div>
+							<div class="special-offer-modal__input">
+								<input class="form-control" type="tel" placeholder="Phone number">
+							</div>
+							<button class="special-offer-modal__btn btn btn-gradient" type="submit">Get access
+								<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M14 13.125C14 13.6082 13.6082 14 13.125 14H0.875C0.391754 14 0 13.6082 0 13.125C0 12.6418 0.391754 12.25 0.875 12.25H13.125C13.6082 12.25 14 12.6418 14 13.125ZM6.38129 10.3531C6.55216 10.524 6.77605 10.6094 7 10.6094C7.22389 10.6094 7.44789 10.524 7.61871 10.3531L10.7189 7.25296C11.0606 6.91124 11.0606 6.35723 10.7189 6.01552C10.3772 5.6738 9.82316 5.6738 9.48145 6.01552L7.875 7.62196V0.875C7.875 0.391754 7.48325 0 7 0C6.51675 0 6.125 0.391754 6.125 0.875V7.62196L4.51855 6.01552C4.17684 5.6738 3.62283 5.6738 3.28111 6.01552C2.9394 6.35723 2.9394 6.91124 3.28111 7.25296L6.38129 10.3531Z" fill="currentColor"/>
+									</svg>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+</html>

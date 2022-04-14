@@ -1,0 +1,22 @@
+@mixin font($fname, $fstyle, $fweight, $fdisplay, $furl1, $furl2)
+	@font-face
+		font-family: $fname
+		font-style: $fstyle
+		font-weight: $fweight
+		font-display: $fdisplay
+		src: url($furl1) format('woff2'), url($furl2) format('woff')
+
+// Kudryashev Display
+@include font('Kudryashev Display', normal, 400, swap, '../fonts/KudryashevHeadline-Sans.woff2', '../fonts/KudryashevHeadline-Sans.woff')
+// Euclid Flex
+@include font('Euclid Flex', normal, 100, swap, '../fonts/EuclidFlex-Thin.woff2', '../fonts/EuclidFlex-Thin.woff')
+@include font('Euclid Flex', normal, 300, swap, '../fonts/EuclidFlex-Light.woff2', '../fonts/EuclidFlex-Light.woff')
+@include font('Euclid Flex', normal, 400, swap, '../fonts/EuclidFlex-Regular.woff2', '../fonts/EuclidFlex-Regular.woff')
+@include font('Euclid Flex', normal, 500, swap, '../fonts/EuclidFlex-Medium.woff2', '../fonts/EuclidFlex-Medium.woff')
+@include font('Euclid Flex', normal, 600, swap, '../fonts/EuclidFlex-SemiBold.woff2', '../fonts/EuclidFlex-SemiBold.woff')
+// Kreon
+@include font('Kreon', normal, 400, swap, '../fonts/kreon-v30-latin-regular.woff2', '../fonts/kreon-v30-latin-regular.woff')
+@include font('Kreon', normal, 600, swap, '../fonts/kreon-v30-latin-600.woff2', '../fonts/kreon-v30-latin-600.woff')
+
+
+
